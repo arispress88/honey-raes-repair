@@ -66,15 +66,15 @@
   "employees": [
     {
       "id": 1,
-      "specialty": "PC Repair",
-      "rate": 72.47,
+      "specialty": "PC Repair and Mac repairs",
+      "rate": 75.95,
       "userId": 4
     },
     {
       "id": 2,
-      "specialty": "Apple Repair",
-      "rate": 97.39,
-      "userId": 5
+      "address": "56849 Fadel Gateway",
+      "phoneNumber": "304-634-2879",
+      "userId": 1
     },
     {
       "id": 3,
