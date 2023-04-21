@@ -46,8 +46,8 @@
   "customers": [
     {
       "id": 1,
-      "address": "2802 Zula Locks",
-      "phoneNumber": "852-837-9713",
+      "address": "2003 Elm St",
+      "phoneNumber": "852-861-3000",
       "userId": 2
     },
     {
@@ -66,14 +66,14 @@
   "employees": [
     {
       "id": 1,
-      "specialty": "PC Repair and Mac repairs",
-      "rate": 75.95,
-      "userId": 4
+      "specialty": "PC Repairs",
+      "rate": 99.95,
+      "userId": 2
     },
     {
       "id": 2,
-      "address": "56849 Fadel Gateway",
-      "phoneNumber": "304-634-2879",
+      "specialty": "PC Repairs",
+      "rate": 99.95,
       "userId": 1
     },
     {
@@ -92,24 +92,17 @@
       "dateCompleted": "Fri Apr 29 2022 14:02:20 GMT-0500 (Central Daylight Time)"
     },
     {
-      "id": 2,
       "userId": 3,
       "description": "Vero est adipisci sed natus quasi consectetur occaecati. Modi maxime sunt officia cumque. Vel at culpa. Sint accusamus deserunt dolorem qui.",
       "emergency": true,
-      "dateCompleted": ""
-    },
-    {
-      "id": 3,
-      "userId": 1,
-      "description": "Sunt pariatur et quidem hic voluptatem. Neque aliquam voluptas eos incidunt repellendus. Vero expedita non sit quaerat sit et eum. Quasi dolor voluptatem illum eum qui est expedita sequi accusamus.",
-      "emergency": false,
-      "dateCompleted": ""
+      "dateCompleted": "2023-04-21T14:26:24.675Z",
+      "id": 2
     },
     {
       "id": 4,
       "userId": 2,
       "description": "A deleniti est sed vel. Dolores aliquid enim vero. Quia eligendi vel voluptas. Nihil nihil quasi ullam officia doloremque amet non. Officia atque quae.",
-      "emergency": false,
+      "emergency": true,
       "dateCompleted": ""
     },
     {
@@ -146,6 +139,13 @@
       "emergency": true,
       "dateCompleted": "",
       "id": 9
+    },
+    {
+      "userId": 2,
+      "description": "HALP...nevermind LUL",
+      "emergency": true,
+      "dateCompleted": "",
+      "id": 10
     }
   ],
   "employeeTickets": [
@@ -163,6 +163,10 @@
       "id": 3,
       "employeeId": 1,
       "serviceTicketId": 4
+    },
+    {
+      "serviceTicketId": 2,
+      "id": 4
     }
   ]
 }

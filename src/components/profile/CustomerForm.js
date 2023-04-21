@@ -39,7 +39,7 @@ export const CustomerForm = () => {
             TODO: Perform the PUT fetch() call here to update the profile.
             Navigate user to home page when done.
         */
-       return fetch(`http://localhost:8088/employees/${profile.id}`, {
+       return fetch(`http://localhost:8088/customers/${profile.id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
